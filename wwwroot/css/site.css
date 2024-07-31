@@ -1,0 +1,96 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.navbar-1{
+  background-color: #b3b9be;
+  border-bottom: 1px solid #e3e6f0;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.navbar-1 a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.main-con {
+  position: absolute;
+  top:100px; left: 90px;
+  width:auto ;
+  height: auto;
+  padding:50px;
+  border-radius: 20px;
+  float: left;
+}
+#createRoomBtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+}
+.Box-join {
+  position: absolute;
+  top: 0px; left: 250px;
+  width:auto ;
+  display: flex;
+  height: auto;
+  padding:50px;
+  border-radius: 20px;
+  float: right;
+}
+#joinRoomBtn{
+  border-radius: 0 20px 20px 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+#roomId {
+  outline: none;
+  border: 2px double #4CAF50;
+  padding: 10px;
+}
+.ChucNang button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+#startCallBtn, #toggleMicBtn, #toggleCameraBtn  {
+  padding: 10px;
+  background-color: none ;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  margin: 5px;
+}
+#endCallBtn {
+  padding: 10px;
+  background-color: rgb(255, 133, 133) ;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  margin: 5px;
+}
+.red-background {
+  background-color: red;
+}
